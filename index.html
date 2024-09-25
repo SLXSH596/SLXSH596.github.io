@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play:wght@400;700&display=swap" rel="stylesheet">
-
-<title>SLXSH</title>
-</head>
-<body>
-<h1 class="bebas-neue-regular"> Owen Sims</h1>
-<h2 class="play-bold">Computer Games Development student at <a href="https://www.staffs.ac.uk/course/computer-games-development-bsc"> Staffordshire University </a></h2>
-<h3 class="play-regular">About Me</h3>
-<h3 class="play-regular">Projects</h3>
-<iframe src="https://www.youtube.com/embed/XSXHO7uqbSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/-wLblG19xPE?si=brxF0NyptldcEMmr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/Z0M1T5FIfDU" title="Mechanics Prototyping Gameplay Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/T2hNXb4C_nU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<h3 class="play-regular">Contact</h3>
-</body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <head>
+        <title>SLXSH</title>
+    </head>
+    <body>
+        <nav>
+            <button class="nav-button play-bold" onclick="window.location.href='#home'">Home</button>
+            <button class="nav-button play-bold" onclick="window.location.href='#about'">About Me</button>
+            <button class="nav-button play-bold" onclick="window.location.href='#projects'">Projects</button>
+            <button class="nav-button play-bold" onclick="window.location.href='#contact'">Contact</button>
+        </nav>
+        <div id="home">
+            <h1 class="bebas-neue-regular"> Owen Sims</h1>
+            <h2 class="play-bold">Computer Games Development student at <a href="https://www.staffs.ac.uk/course/computer-games-development-bsc">Staffordshire University</a></h2>
+        </div>
+        <div id="about">
+            <h3 class="play-regular">About Me</h3>
+            <p class="play-regular">I am a second year Computer Games Development student at 
+                Staffordshire University. I have always had a passion for game development, and 
+                started programming in middle school. I am always looking to learn new skills and 
+                improve my existing ones. I am currently learning blender and developing a game in UE5 
+                alongside my studies.
+        </div>
+        <div id="projects">
+            <h3 class="play-regular">Projects</h3>
+            <iframe src="https://www.youtube.com/embed/XSXHO7uqbSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/-wLblG19xPE?si=brxF0NyptldcEMmr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/Z0M1T5FIfDU" title="Mechanics Prototyping Gameplay Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/T2hNXb4C_nU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="contact">
+            <h3 class="play-regular">Contact</h3>
+            <p class="play-regular">Email:</p>
+        </div>
+    </body>
 </html>
