@@ -65,7 +65,7 @@ nav{
     display: flex;
     width: 100%;
     position: sticky;
-    top:0px;
+    top: 0px;
 }
 
 .nav-button{
@@ -83,4 +83,20 @@ nav{
 .nav-button:hover{
     background-color: white;
     color: black;
+}
+
+#home{
+    scroll-margin-top: 100px;
+}
+
+#about{
+    scroll-margin-top: 100px;
+}
+
+#projects{
+    scroll-margin-top: 100px;
+}
+
+#contact{
+    scroll-margin-top: 100px;
 }
