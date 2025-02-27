@@ -92,7 +92,7 @@ nav{
     color: black;
 }
 
-.project-grid{
+.grid{
     display: grid;
     background-color: white;
     grid-template-columns: 50% 50%;
@@ -101,7 +101,7 @@ nav{
     align-items: space-evenly;
 }
 
-.project{
+.grid-item{
     background-color: black;
     color: white;
     border-color: white;
@@ -119,6 +119,14 @@ nav{
 }
 
 #projects{
+    scroll-margin-top: 100px;
+}
+
+#tools{
+    scroll-margin-top: 100px;
+}
+
+#vfx{
     scroll-margin-top: 100px;
 }
 
