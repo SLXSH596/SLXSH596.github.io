@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play:wght@400;700&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
     <head>
         <title>Owen Sims</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play:wght@400;700&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
     </head>
     <body>
-        <div id="home">
+        <header id="home">
             <h1 class="bebas-neue-regular"> Owen Sims</h1>
             <h2 class="play-bold">Computer Games Development student at <a href="https://www.staffs.ac.uk/course/computer-games-development-bsc">University of Staffordshire</a></h2>
-        </div>
+        </header>
         <nav>
             <button class="nav-button play-bold" onclick="window.location.href='#home'">Home</button>
             <button class="nav-button play-bold" onclick="window.location.href='#about'">About Me</button>
@@ -22,16 +22,20 @@
             <button class="nav-button play-bold" onclick="window.location.href='#contact'">Contact</button>
 
         </nav>
-        <div id="about">
-            <h3 class="play-regular">About Me</h3>
-            <p class="play-regular">I am a second year Computer Games Development student at 
-                Staffordshire University. I have always had a passion for game development, and 
-                started programming in middle school. I am always looking to learn new skills and 
-                improve my existing ones. I am currently learning blender and developing a game in UE5 
-                alongside my studies. 
-            </p>
-        </div>
-        <div id = "projects">
+        <section id="about">
+            <div class="grid-rtl">
+                <div class="borderless-grid-item">
+                    <h3 class="play-regular">About Me</h3>
+                    <p class="play-regular">I am a second year Computer Games Development student at 
+                        Staffordshire University. I have always had a passion for game development, and 
+                        started programming in middle school. I am always looking to learn new skills and 
+                        improve my existing ones. I am currently learning blender and developing a game in UE5 
+                        alongside my studies. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id = "projects">
             <h3 class="play-regular">Projects</h3>
             <div class = "grid">
                 <div class="grid-item">
@@ -64,13 +68,13 @@
                     <p class="play-regular">More projects coming soon...</p>
                 </div>
             </div>
-        </div>
-        <div id = "vfx">
+        </section>
+        <section id = "vfx">
             <h3 class="play-regular">VFX</h3>
             <iframe src="https://www.youtube.com/embed/j0ZcUt8juYM" title="VFX Showreel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p class="play-regular">My VFX showreel, showcasing some of the VFX I created for my VFX module at university.</p>
-        </div>
-        <div id = "tools">
+        </section>
+        <section id = "tools">
             <h3 class="play-regular">Tools</h3>
             <div class = "grid">
                 <div class="grid-item">
@@ -83,10 +87,10 @@
                     <p class="play-regular">More tools coming soon...</p>
                 </div>
             </div>
-        </div>
-        <div id="contact">
+        </section>
+        <section id="contact">
             <h3 class="play-regular">Contact</h3>
             <p class="play-regular">Email: <a href="mailto:owengsims@outlook.com">owengsims@outlook.com</a></p>
-        </div>
+        </section>
     </body>
 </html>
