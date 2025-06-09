@@ -100,7 +100,7 @@ nav {
 
 .grid-rtl {
     display: grid;
-    grid-template-columns: 50%;
+    grid-template-columns: 50% 50%;
     direction: rtl;
     padding: 2%;
 }
@@ -113,9 +113,7 @@ nav {
 
 .project {
     width: 100vw;
-    height: 56.25vw
-        /* 16:9 aspect ratio */
-    ;
+    height: 56.25vw;
 }
 
 #home {
