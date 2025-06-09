@@ -28,7 +28,7 @@ h3 {
     color: lightgrey;
     text-decoration: underline;
     text-align: center;
-    font-size: 40px;
+    font-size: 4vw;
 }
 
 h4 {
@@ -40,7 +40,6 @@ h4 {
 
 p {
     color: white;
-    text-align: left;
 }
 
 iframe {
@@ -48,7 +47,7 @@ iframe {
     aspect-ratio: 16/9;
 }
 
-nav{
+nav {
     width: 100%;
     height: 80px;
     display: flex;
@@ -61,7 +60,7 @@ nav{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 .play-regular {
     font-family: "Play", sans-serif;
@@ -75,83 +74,78 @@ nav{
     font-style: normal;
 }
 
-.nav-button{
+.nav-button {
     background-color: black;
     color: white;
     border-color: white;
     border-style: solid;
     border-width: 1px;
     height: inherit;
-    font-size: 40px;
+    font-size: calc(2vh + 2vw);
     flex: 1;
     transition-duration: 0.2s;
 }
 
-.nav-button:hover{
+.nav-button:hover {
     background-color: white;
     color: black;
 }
 
-.grid{
+.grid-ltr {
     display: grid;
     grid-template-columns: 50% 50%;
-}
-
-.grid-rtl{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    direction: rtl;
-}
-
-.grid-item{
-    border-color: white;
-    border-style: solid;
-    border-width: 1;
-    padding: 20px;
     direction: ltr;
+    padding: 2%;
 }
 
-.borderless-grid-item{
-    padding: 20px;
+.grid-rtl {
+    display: grid;
+    grid-template-columns: 50%;
+    direction: rtl;
+    padding: 2%;
+}
+
+.borderless-grid-item {
+    padding: 5%;
     background-color: rgba(0, 0, 0, 0.5);
     direction: ltr;
 }
 
-#home{
+.project {
+    width: 100vw;
+    height: 56.25vw
+        /* 16:9 aspect ratio */
+    ;
+}
+
+#home {
     scroll-margin-top: 100px;
 }
 
-#about{
+#about {
     scroll-margin-top: 100px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
     background-image:
         linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
         url(assets/img/me.JPG);
     background-blend-mode: multiply;
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 100vh;
+    width: 100%;
+    height: 66.67vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: x-large;
+    font-size: 2vw;
 }
 
-#projects{
+#projects {
     scroll-margin-top: 100px;
 }
 
-#tools{
+#vfx {
     scroll-margin-top: 100px;
 }
 
-#vfx{
-    scroll-margin-top: 100px;
-}
-
-#contact{
+#contact {
     scroll-margin-top: 100px;
 }
