@@ -102,6 +102,14 @@ nav {
   padding: 10px;
 }
 
+.social-button {
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  aspect-ratio: 1/1;
+  height: 3vw;
+}
+
 .itch-button {
   background-image: url(assets/img/badge.png);
   background-size: contain;
