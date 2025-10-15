@@ -1,192 +1,201 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  background-color: black;
-  margin: 1%;
+    background-color: black;
+    margin: 1%;
 }
 
 h1 {
-  margin-top: 0;
-  background-color: black;
-  color: white;
-  opacity: 0.8;
-  text-align: center;
-  font-size: 7vw;
-  border-style: solid;
-  border-color: white;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 7vw;
+    border-style: solid;
+    border-color: white;
 }
 
 h2 {
-  color: white;
-  text-align: center;
-  font-size: 3vw;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
 }
 
 h3 {
-  background-color: rgba(32, 32, 32, 1);
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 4vw;
-  border-style: solid;
-  border-color: white;
-  margin: auto;
+    background-color: rgba(32, 32, 32, 1);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4vw;
+    border-style: solid;
+    border-color: white;
+    margin: auto;
 }
 
 h4 {
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 3vw;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3vw;
 }
 
 p {
-  color: white;
-  font-size: 1vw;
+    color: white;
+    font-size: 1vw;
 }
 
 ul {
-  color: white;
-  font-size: 1vw;
+    color: white;
+    font-size: 1vw;
 }
 
 a {
-  color: white;
-  font: 1vw;
+    color: white;
+    font: 1vw;
 }
 
 iframe {
-  width: 100%;
-  aspect-ratio: 16/9;
+    width: 100%;
+    aspect-ratio: 16/9;
 }
 
 nav {
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  position: sticky;
-  top: 0px;
-  z-index: 1000;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
 }
 
 .bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .play-regular {
-  font-family: "Play", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .play-bold {
-  font-family: "Play", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .nav-button {
-  background-color: black;
-  color: white;
-  border-color: white;
-  border-style: solid;
-  border-width: 1px;
-  height: inherit;
-  font-size: calc(2vh + 2vw);
-  flex: 1;
-  transition-duration: 0.2s;
-  padding: 10px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    height: inherit;
+    font-size: calc(2vh + 2vw);
+    flex: 1;
+    transition-duration: 0.2s;
+    padding: 10px;
 }
 
 .social-button {
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: inline-block;
-  aspect-ratio: 1/1;
-  height: 3vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    aspect-ratio: 1/1;
+    height: 3vw;
 }
 
 .itch-button {
-  background-image: url(assets/img/badge.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: block;
-  aspect-ratio: 1198/369;
-  height: 3vw;
+    background-image: url(assets/img/badge.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    aspect-ratio: 1198/369;
+    height: 3vw;
 }
 
 .itch-button:hover {
-  background-image: url(assets/img/badge-color.png);
+    background-image: url(assets/img/badge-color.png);
 }
 
 .nav-button:hover {
-  background-color: white;
-  color: black;
+    background-color: white;
+    color: black;
+}
+
+.circle-image {
+    border-radius: 50%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .grid-ltr {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  direction: ltr;
-  padding: 2%;
-  gap: 2%;
-  justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    direction: ltr;
+    padding: 2%;
+    gap: 2%;
+    justify-content: center;
 }
 
 .grid-rtl {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  direction: rtl;
-  padding: 2%;
-  gap: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    direction: rtl;
+    padding: 2%;
+    gap: 2%;
 }
 
 .borderless-grid-item {
-  padding: 3%;
-  background-color: rgba(0, 0, 0, 0.8);
-  direction: ltr;
-  align-content: center;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    direction: ltr;
+    align-content: center;
 }
 
 .project {
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 56.25vw;
-  width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 56.25vw;
+    width: 100%;
 }
 
 #home {
-  scroll-margin-top: 100px;
+    scroll-margin-top: 100px;
 }
 
 #about {
-  scroll-margin-top: 100px;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 1),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 1)
+    scroll-margin-top: 100px;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1)
     ),
     url(assets/img/Gent.JPG);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 66.67vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 66.67vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
 }
 
 #projects {
-  scroll-margin-top: 100px;
+    scroll-margin-top: 100px;
 }
 
 #vfx {
-  scroll-margin-top: 100px;
+    scroll-margin-top: 100px;
 }
